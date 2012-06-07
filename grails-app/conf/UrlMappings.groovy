@@ -8,6 +8,11 @@ class UrlMappings {
 			action = [ POST: "insert" ]
 		}
 		
+		
+		"/test" (controller: "spending" ) {
+			action = [ GET: "test" ]
+		}
+		
 		"/$controller/$action?/$id?" {
 			constraints {
 				// apply constraints here
