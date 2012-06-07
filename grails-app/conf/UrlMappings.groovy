@@ -1,5 +1,4 @@
 class UrlMappings {
-
 	static mappings = {
 		"/spending/search/concept/$concept" ( controller: "spending" ) {
 			action = [ GET: "searchconcept" ]
